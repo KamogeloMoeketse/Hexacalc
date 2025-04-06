@@ -38,7 +38,7 @@ function addHex(a, b) {
   function divideHex(a, b) {
     if (!isValidHex(a) || !isValidHex(b)) throw new Error('Invalid hex input.');
     const divisor = hexToDecimal(b);
-    // if (divisor === 0) throw new Error('Cannot divide by zero.');
+    if (divisor === 0) throw new Error('Cannot divide by zero.');
     const quotient = Math.floor(hexToDecimal(a) / divisor);
     return validateOutput(quotient);
   }
