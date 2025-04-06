@@ -1,12 +1,23 @@
-# React + Vite
+# React Testing with Vitest and React Testing Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates how to set up and use **Vitest** together with **React Testing Library** in a React project created using **Vite**.
 
-Currently, two official plugins are available:
+## 📖 Guide
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For a detailed tutorial on setting up Vitest with React Testing Library in a Vite-powered React project, check out the article below:
 
-## Expanding the ESLint configuration
+👉 [Vitest with React Testing Library in React created with Vite](https://victorbruce82.medium.com/vitest-with-react-testing-library-in-react-created-with-vite-3552f0a9a19a)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Vitest](https://vitest.dev/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+
+## 📂 Project Setup
+
+```bash
+npm install
+npm run dev
+npm run test
